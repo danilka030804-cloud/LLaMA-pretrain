@@ -38,7 +38,28 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 
 * Training time: ~7 hours
 
-<p align="center">
-  <img src="images/train_loss.png" alt="Train loss" width="400"/>
-  <img src="images/train_learning_rate.png" alt="Learning rate" width="400"/>
-</p>
+<div align="center">
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="images/train_loss.png" alt="Train loss" width="400"/>
+    <br>
+    <sub><b>Train loss</b></sub>
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="images/train_learning_rate.png" alt="Learning rate" width="400"/>
+    <br>
+    <sub><b>Learning rate</b></sub>
+  </div>
+</div>
+
+<div align="center">
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="images/train_grad_norm.png" alt="Grad norm" width="400"/>
+    <br>
+    <sub><b>Grad norm</b></sub>
+  </div>
+  <div style="display: inline-block; margin: 0 10px;">
+    <img src="images/train_tokens_per_step.png" alt="Tokens per step" width="400"/>
+    <br>
+    <sub><b>Tokens per step</b></sub>
+  </div>
+</div>
