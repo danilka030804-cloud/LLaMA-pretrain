@@ -38,4 +38,7 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 
 * Training time: ~7 hours
 
-![Оптимизация сходимости](images/train_loss.png)
+<p align="center">
+  <img src="images/train_loss.png" alt="Train loss" width="400"/>
+  <img src="images/trainn_learning_rate.png" alt="Learning rate" width="400"/>
+</p>
