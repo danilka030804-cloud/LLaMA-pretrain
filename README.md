@@ -6,13 +6,11 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 
 * Model: LLaMA (Decoder-only Transformer)
 
-* Parameters: ~100 million
+* Parameters: ~197 M
 
 * Tokenizer: Mistral-7B-v0.1
 
 * Context Window: 256 tokens
-
-* Model size: 197M
 
 
 ### Training Optimizations
