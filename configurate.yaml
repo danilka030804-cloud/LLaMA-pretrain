@@ -1,0 +1,9 @@
+tokenizer: 
+  name: "mistralai/Mistral-7B-v0.1"
+  login: "YOUR_API_TOKEN_HERE"
+
+
+
+logger:
+  token: "YOUR_API_TOKEN_HERE"
+  project: "PROJECT_NAME"
