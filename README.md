@@ -12,6 +12,8 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 
 * Context Window: 256 tokens
 
+* Model size: 197M
+
 
 ### Training Optimizations
 
