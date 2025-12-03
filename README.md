@@ -37,3 +37,5 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 * Final Loss: < 5.0
 
 * Training time: ~7 hours
+
+![Оптимизация сходимости](images/train_loss.png)
