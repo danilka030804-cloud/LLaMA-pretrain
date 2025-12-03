@@ -38,31 +38,35 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 
 * Training time: ~7 hours
 
-<div align="center">
-  <!-- Первая пара -->
-  <div style="display: inline-block; margin: 0 10px;">
-    <img src="images/train_loss.png" alt="Train loss" width="400"/>
-    <br>
-    <sub><b>Train loss</b></sub>
-  </div>
-  <div style="display: inline-block; margin: 0 10px;">
-    <img src="images/train_learning_rate.png" alt="Learning rate" width="400"/>
-    <br>
-    <sub><b>Learning rate</b></sub>
-  </div>
+<table align="center">
+  <!-- Первая строка картинок -->
+  <tr>
+    <td align="center">
+      <img src="images/train_loss.png" alt="Train loss" width="400"/>
+      <br>
+      <sub><b>Train loss</b></sub>
+    </td>
+    <td align="center">
+      <img src="images/train_learning_rate.png" alt="Learning rate" width="400"/>
+      <br>
+      <sub><b>Learning rate</b></sub>
+    </td>
+  </tr>
   
-  <!-- Разделитель между строками -->
-  <br><br>
+  <!-- Отступ между строками -->
+  <tr><td colspan="2" style="height: 30px;"></td></tr>
   
-  <!-- Вторая пара -->
-  <div style="display: inline-block; margin: 0 10px;">
-    <img src="images/train_grad_norm.png" alt="Grad norm" width="400"/>
-    <br>
-    <sub><b>Grad norm</b></sub>
-  </div>
-  <div style="display: inline-block; margin: 0 10px;">
-    <img src="images/train_tokens_per_step.png" alt="Tokens per step" width="400"/>
-    <br>
-    <sub><b>Tokens per step</b></sub>
-  </div>
-</div>
+  <!-- Вторая строка картинок -->
+  <tr>
+    <td align="center">
+      <img src="images/train_grad_norm.png" alt="Grad norm" width="400"/>
+      <br>
+      <sub><b>Grad norm</b></sub>
+    </td>
+    <td align="center">
+      <img src="images/train_tokens_per_step.png" alt="Tokens per step" width="400"/>
+      <br>
+      <sub><b>Tokens per step</b></sub>
+    </td>
+  </tr>
+</table>
