@@ -39,6 +39,7 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
 * Training time: ~7 hours
 
 <div align="center">
+  <!-- Первая пара -->
   <div style="display: inline-block; margin: 0 10px;">
     <img src="images/train_loss.png" alt="Train loss" width="400"/>
     <br>
@@ -49,9 +50,11 @@ My implementation of pretraining the [LLaMA](https://arxiv.org/abs/2302.13971) m
     <br>
     <sub><b>Learning rate</b></sub>
   </div>
-</div>
-
-<div align="center">
+  
+  <!-- Разделитель между строками -->
+  <br><br>
+  
+  <!-- Вторая пара -->
   <div style="display: inline-block; margin: 0 10px;">
     <img src="images/train_grad_norm.png" alt="Grad norm" width="400"/>
     <br>
